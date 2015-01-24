@@ -9,11 +9,12 @@ gem 'devise'
 gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
 # Group so heroku ignores
-group :develpment, :test do
+group :development, :test do
   gem 'sqlite3'
 end
 
 group :production do
+  gem 'thin'
   gem 'pg'
 end
 # Use SCSS for stylesheets
