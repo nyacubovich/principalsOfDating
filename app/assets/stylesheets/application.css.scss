@@ -21,3 +21,9 @@ h1{
   font-family:DKCoolCrayon;
   color:red !important;
 }
+table.fixed{
+  table-layout:fixed;
+}
+table.fixed td{
+  overflow:hidden;
+}
